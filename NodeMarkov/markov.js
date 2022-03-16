@@ -1,5 +1,6 @@
 /** Textual markov chain generator */
 
+
 class MarkovMachine {
 
   /** build markov machine; read in text.*/
@@ -29,6 +30,7 @@ class MarkovMachine {
     this.chains = chains;
   }
 
+
   /** Pick random choice from array */
 
   static choice(ar) {
@@ -53,6 +55,7 @@ class MarkovMachine {
     return out.join(" ");
   }
 }
+
 
 module.exports = {
   MarkovMachine,
